@@ -1,0 +1,55 @@
+.main-container {
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 12rem;
+    height: 34rem;
+    transform: translateX(600px);
+    padding: 4rem;
+    /* background-color: brown; */
+}
+
+.container .heading {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 5.8rem;
+}
+
+.container .text1 {
+    font-weight: 300;
+    font-size: 1.37rem;
+    line-height: 2rem;
+}
+
+.container .input {
+    margin: 1rem 0;
+    display: grid;
+    grid-row-gap: .5rem;
+    /* background-color: brown; */
+}
+
+.container .input .text2 {
+    font-weight: 500;
+    font-size: .85rem;
+    line-height: 1.31rem;
+    color: #444444;
+}
+
+.container .input .input-box {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #909090;
+    background: #FFFFFF;
+    border: 1px solid #909090;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.container .actions {
+    margin: 2rem 0;
+    display: grid;
+    grid-row-gap: 1rem;
+}

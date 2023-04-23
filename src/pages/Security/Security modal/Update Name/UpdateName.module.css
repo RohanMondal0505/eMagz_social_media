@@ -1,0 +1,77 @@
+.overlay {
+    background-color: white;
+    padding: 8rem 6rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    width: 70rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay .form {
+    width: 31rem;
+    display: grid;
+    grid-row-gap: 2rem;
+    /* background-color: blueviolet; */
+}
+
+.overlay .form h2 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3.9rem;
+    color: #444444;
+}
+
+.overlay .form p {
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #999999;
+}
+
+.overlay .form label {
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #444444;
+}
+
+.overlay .form input {
+    padding: 1rem;
+    border-radius: 10px;
+    background: #F2F2F2;
+    font-weight: 500;
+    font-size: .8rem;
+    line-height: 1rem;
+    color: #AAAAAA;
+    border: none;
+}
+
+.overlay .form .actions {
+    display: flex;
+    flex-direction: column;
+    padding: 0 4rem;
+}
+
+.overlay .form .actions .btn {
+    font-size: .8rem;
+    line-height: 1.2rem;
+    /* padding-left: 5rem; */
+    width: 20rem;
+    background-color: #3A0DBB;
+    color: #ffffff;
+    border: none;
+    filter: drop-shadow(0px, 4.07px, 20.35px rgba(0, 0, 0, 0.25));
+}
+
+.overlay .form .actions .link {
+    background: none;
+    border: none;
+    width: 20rem;
+    color: #444444
+    ;
+}

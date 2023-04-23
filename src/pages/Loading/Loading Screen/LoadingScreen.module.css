@@ -1,0 +1,10 @@
+.container {
+    position: relative;
+    overflow: hidden !important;
+}
+
+.hover-animation {
+    position: absolute;
+    bottom: 18rem;
+    left: 42rem;
+}

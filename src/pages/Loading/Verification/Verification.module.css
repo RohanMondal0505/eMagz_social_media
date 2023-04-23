@@ -1,0 +1,108 @@
+.main-container {
+    position: relative;
+}
+
+.main-container .sub-container {
+    position: absolute;
+    top: 14rem;
+    left: 47rem;
+    width: 38rem;
+    /* height: 34rem; */
+    border-radius: 63.37px;
+    overflow: hidden;
+    display: grid;
+    grid-row-gap: .5rem;
+}
+
+.main-container .sub-container .header {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+}
+
+.main-container .sub-container .header .text-container {
+    padding: 3rem;
+}
+
+.main-container .sub-container .header .image {
+    width: 17rem;
+    height: 13rem;
+    /* background-color: brown; */
+}
+
+.main-container .sub-container .header .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-container .sub-container .header .text-container .heading {
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+}
+
+.main-container .sub-container .header .text-container .text {
+    font-weight: 500;
+    font-size: .78rem;
+    line-height: 1.17rem;
+    color: #282828;
+}
+
+.main-container .sub-container .form {
+    padding: 0 3rem 3rem 3rem;
+    display: grid;
+    grid-row-gap: 2rem;
+    /* background-color: rgb(185, 133, 55); */
+}
+
+.main-container .sub-container .form .input {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 3rem;
+}
+
+.main-container .sub-container .form .input .input-box {
+    padding: .5rem;
+    border-radius: 10px;
+    border: none;
+    width: 5.81rem;
+    height: 5.3rem;
+    background-color: #EEEEEE;
+}
+
+.main-container .sub-container .form .actions {
+    /* padding: 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(253, 203, 142); */
+}
+
+.main-container .sub-container .form .actions .btn {
+    background-color: #1943D8;
+    color: #ffffff;
+    font-weight: 500;
+    width: 12.7rem;
+    border: none;
+}
+
+/* .main-container .sub-container .form .actions .btn:active{
+    animation-timing-function: all ease-out;
+} */
+
+.main-container .sub-container .form .footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-container .sub-container .form .footer .link {
+        font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+.main-container .sub-container .form .footer .time{
+    display: flex;
+    }
+.main-container .sub-container .form .footer .time .timer{
+    color: #1731BA;
+}

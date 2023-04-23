@@ -1,0 +1,100 @@
+.main-container {
+    /* height: 100vh;
+    overflow: hidden; */
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 12rem;
+    height: 36rem;
+    padding: 4rem;
+    margin-left: 36rem;
+
+}
+
+.container .heading {
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 5.8rem;
+}
+
+.container .text1 {
+    font-weight: 300;
+    font-size: 1.37rem;
+    line-height: 2rem;
+}
+
+.container .input {
+    margin: 1rem 0;
+    display: grid;
+    grid-row-gap: .5rem;
+    /* background-color: brown; */
+}
+
+.container .input .text2 {
+    font-weight: 500;
+    font-size: .85rem;
+    line-height: 1.31rem;
+    color: #444444;
+}
+
+.container .text2 {
+    font-weight: 500;
+    font-size: .85rem;
+    line-height: 1.31rem;
+    color: #444444;
+}
+
+.container .input .input-box {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #909090;
+    background: #FFFFFF;
+    border: 1px solid #909090;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.container .buttons {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .buttons .btn {
+    width: 17.5rem;
+    font: inherit;
+    background: #F2F2F2;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    color: #CCCCCC;
+    padding: 0.75rem 3rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+.container .buttons .btn-active{
+    border: 1px solid #CCCCCC;
+    width: 17.5rem;
+    background: #3A0DBB;
+      font: inherit;
+    color: #CCCCCC;
+    padding: 0.75rem 3rem;
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container .btn2 {
+    margin: 1rem 0;
+    width: 36.2rem;
+    background: #3A0DBB;
+}

@@ -1,0 +1,89 @@
+.main-container {
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 4rem;
+    width: 42rem;
+    height: 52rem;
+    transform: translateX(600px);
+    padding: 4rem;
+    /* background-color: brown; */
+}
+
+.container .heading {
+    padding-right: 3rem;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 3.9rem;
+    margin-bottom: 1rem;
+}
+
+.container .text1 {
+    font-weight: 300;
+    font-size: 1.37rem;
+    line-height: 2rem;
+}
+
+.container .logo-section {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.container .logo-section .logo-container {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    text-align: center;
+    padding: 0 2rem;
+}
+.container .logo-section .logo-container .logo{
+    width: 100%;
+    height: 100%;
+}
+.container .input {
+    margin: 1rem 0;
+    display: grid;
+    grid-row-gap: 1rem;
+    /* background-color: brown; */
+}
+.container .input .input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .input .text2 {
+    font-weight: 500;
+    font-size: .85rem;
+    line-height: 1.31rem;
+    color: #444444;
+    margin-bottom: .5rem;
+}
+
+.container .input .input-box {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #909090;
+    background: #FFFFFF;
+    border: 1px solid #909090;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.container .actions {
+    margin: 3rem 0;
+    display: grid;
+    grid-row-gap: 1rem;
+}
