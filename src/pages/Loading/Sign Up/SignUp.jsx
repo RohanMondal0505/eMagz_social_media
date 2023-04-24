@@ -5,7 +5,7 @@ import LoadingBg from '../Loading Bg/LoadingBg';
 import signUpLogo from '../../../assets/svg/sign-up-logo.svg';
 import Card from '../../../components/Card/Card';
 import Button from "../../../components/Button/Button";
-// import google from '../../../assets/Images/Google.png'
+import google from '../../../assets/Images/Google.png'
 import facebook from '../../../assets/Images/Facebook.png'
 
 const SignUp = () => {
@@ -85,7 +85,7 @@ const SignUp = () => {
                     </div>
                     <div className={classes.footer}>
                         <button>
-                            {/* <img src={google} alt="" /> */}
+                            <img src={google} alt="" />
                         </button>
                         <button>
                             <img src={facebook} alt="" />
